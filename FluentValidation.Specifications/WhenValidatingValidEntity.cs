@@ -9,6 +9,7 @@ namespace FluentValidation.Specifications
         public void ThenValidatorContainsNoErrors()
         {
             Result.Errors.Count.Should().Be(0);
+            ExpectedErrorCount.Should().Be(0);
         }
 
         [Test]

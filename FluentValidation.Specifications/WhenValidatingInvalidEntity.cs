@@ -19,6 +19,7 @@ namespace FluentValidation.Specifications
         {
             errors.Count.Should().Be(ExpectedErrorCount);
             Result.Errors.Count.Should().Be(ExpectedErrorCount);
+            ExpectedErrorCount.Should().BeGreaterThan(0);
         }
 
         [Test]
