@@ -1,0 +1,7 @@
+# git ignore file
+_ReSharper.*/
+*.dotsettings
+*.suo
+*.user
+[B|b]in/
+obj/
